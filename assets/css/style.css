@@ -388,6 +388,24 @@ footer {
     .footerLanding-2 svg{
         height: 50px;
     }
+
+    /*single*/
+    .iconHeader form{
+        height: 30px;
+    }
+
+    .iconHeader svg{
+        height: 30px;
+    }
+
+    .footer svg{
+        height: 25px;
+    }
+
+    .imageSingle{
+        width:80%;
+    }
+
 }
 
 /*Tablet*/
