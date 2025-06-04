@@ -358,7 +358,7 @@ footer {
 
 
 /*Laptop*/
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1600px) {
     body {
         background-color: red;
     }
