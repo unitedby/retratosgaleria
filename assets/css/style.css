@@ -390,6 +390,8 @@ footer {
     }
 
     /*single*/
+
+    
     .iconHeader form{
         height: 30px;
     }
@@ -408,7 +410,7 @@ footer {
 
 }
 
-/*Tablet*/
+/*Tablet+Mobile*/
 @media only screen and (max-width: 991px) {
 
     body {
@@ -425,14 +427,14 @@ footer {
 
     p{
         font-family: 'QuadrantTextMono-Regular', sans-serif;
-        font-size: 8px;
-        line-height: calc(8px + 6px); 
+        font-size: 15px;
+        line-height: calc(15px + 6px); 
     }
     
     .h3{
         font-family: 'ABCMonumentGrotesk-Medium', sans-serif;
-        font-size: 10px;
-        line-height: calc(10px + 6px); 
+        font-size: 18px;
+        line-height: calc(18px + 6px); 
     }
     
     .h2{
@@ -443,8 +445,8 @@ footer {
     
     .h1{
         font-family: 'QuadrantTextMono-Regular', sans-serif;
-        font-size: 14px;
-        line-height: calc(14px + 6px); 
+        font-size: 20px;
+        line-height: calc(20px + 6px); 
     }
     
     .span-lock{
@@ -459,6 +461,10 @@ footer {
         width: calc(100% - var(--marginMobile) * 2);
         height: calc(100vh - var(--marginMobile) * 2);
         padding: var(--marginMobile);
+    }
+
+    .imageSingle {
+        width:100%;
     }
 
     .mainLanding-title {
@@ -483,13 +489,23 @@ footer {
     }
 
     /*single*/
+    .imageSingle-container {
+        align-items: center;
+        height: min-content;
+    }
+
+    .iconHeader input{
+        width: calc(((100vw - var(--marginDesktop) * 2)/ 6) * 1.5);
+    }
+
+    
     .iconHeader svg {
-        height: 14px;
+        height: 20px;
     }
 
     .numberHeader {
         gap: 10px;
-        grid-column: span 4;
+        grid-column: span 3;
     }
 
     .gridHalf {
@@ -501,11 +517,11 @@ footer {
     }
 
     .iconHeader {
-        grid-column: span 2;
+        grid-column: span 3;
     }
 
     .iconHeader form{
-        height: 14px;
+        height: 20px;
     }
 
     header hr {
@@ -518,6 +534,7 @@ footer {
 
     .singleText {
         margin-left: 0;
+        margin-bottom: calc(var(--marginMobile) * 2 + 20px)
     }
 
     .singleText-pt {
@@ -526,7 +543,6 @@ footer {
     }
     .singleText-en {
         grid-column: span 6;
-        margin-bottom: calc(var(--marginMobile) * 2 + 14px)
     }
 
     .contentSingle {
@@ -555,7 +571,7 @@ footer {
     }
 
     footer svg{
-        height: 14px;
+        height: 20px;
     }
 
   }
