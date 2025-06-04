@@ -433,8 +433,8 @@ footer {
     
     .h3{
         font-family: 'ABCMonumentGrotesk-Medium', sans-serif;
-        font-size: 18px;
-        line-height: calc(18px + 6px); 
+        font-size: 16px;
+        line-height: calc(16px + 6px); 
     }
     
     .h2{
@@ -445,8 +445,8 @@ footer {
     
     .h1{
         font-family: 'QuadrantTextMono-Regular', sans-serif;
-        font-size: 20px;
-        line-height: calc(20px + 6px); 
+        font-size: 30px;
+        line-height: calc(30px + 6px); 
     }
     
     .span-lock{
