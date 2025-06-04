@@ -80,7 +80,7 @@ p{
 .span-lock{
     font-family: 'ABCMonumentGrotesk-Bold', sans-serif;
     font-size: 90px;
-    line-height: calc(90px ); 
+    line-height: calc(90px + 6px ); 
     text-transform: uppercase;
 }
 
@@ -229,7 +229,8 @@ footer svg{
 
 .imageSingle-container{
     align-items: center;
-    height: calc(100vh -  var(--marginDesktop) * 4 - 40px * 2);;
+    height: calc(100vh -  var(--marginDesktop) * 4 - 40px * 2);
+    justify-items: center;
 }
 
 .imageSingle{
@@ -380,7 +381,7 @@ footer {
     .span-lock{
         font-family: 'ABCMonumentGrotesk-Bold', sans-serif;
         font-size: 70px;
-        line-height: calc(70px); 
+        line-height: calc(70px + 6px); 
         text-transform: uppercase;
     }
     
@@ -439,20 +440,20 @@ footer {
     
     .h2{
         font-family: 'QuadrantTextMono-Regular', sans-serif;
-        font-size: 30px;
-        line-height: calc(30px + 6px); 
+        font-size: 20px;
+        line-height: calc(20px + 6px); 
     }
     
     .h1{
         font-family: 'QuadrantTextMono-Regular', sans-serif;
-        font-size: 30px;
-        line-height: calc(30px + 6px); 
+        font-size: 25px;
+        line-height: calc(25px + 6px); 
     }
     
     .span-lock{
         font-family: 'ABCMonumentGrotesk-Bold', sans-serif;
         font-size: 40px;
-        line-height: calc(90px ); 
+        line-height: calc(40px  + 6px); 
         text-transform: uppercase;
     }
 
@@ -495,12 +496,12 @@ footer {
     }
 
     .iconHeader input{
-        width: calc(((100vw - var(--marginDesktop) * 2)/ 6) * 1.5);
+        width: calc(((100vw - var(--marginDesktop) * 2)/ 6) * 1);
     }
 
     
     .iconHeader svg {
-        height: 30px;
+        height: 25px;
     }
 
     .numberHeader {
@@ -521,11 +522,16 @@ footer {
     }
 
     .iconHeader form{
-        height: 30px;
+        height: 25px;
     }
 
     header hr {
         margin-top: var(--marginMobile);
+    }
+
+    .imageSingle {
+        grid-column: 1 / span 6;
+        width: 90%;
     }
 
     .imageSingle-container{
