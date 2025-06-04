@@ -383,6 +383,10 @@ footer {
         text-transform: uppercase;
     }
     
+    /*landing*/
+    .footerLanding-2 svg{
+        height: 50px;
+    }
 }
 
 /*Tablet*/
