@@ -309,7 +309,6 @@ footer svg{
 }
 .mainLanding-title{
     grid-column: span 12;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -359,9 +358,31 @@ footer {
 
 /*Laptop*/
 @media only screen and (max-width: 1800px) {
-    body {
-        background-color: red;
+    p{
+        font-family: 'QuadrantTextMono-Regular', sans-serif;
+        font-size: 14px;
+        line-height: calc(14px + 6px); 
     }
+    
+    .h3{
+        font-family: 'ABCMonumentGrotesk-Medium', sans-serif;
+        font-size: 18px;
+        line-height: calc(18px + 6px); 
+    }
+    
+    .h1{
+        font-family: 'QuadrantTextMono-Regular', sans-serif;
+        font-size: 31px;
+        line-height: calc(31px + 6px); 
+    }
+    
+    .span-lock{
+        font-family: 'ABCMonumentGrotesk-Bold', sans-serif;
+        font-size: 70px;
+        line-height: calc(70px); 
+        text-transform: uppercase;
+    }
+    
 }
 
 /*Tablet*/
