@@ -357,8 +357,23 @@ footer {
 }
 
 
+/*Laptop*/
+@media only screen and (max-width: 1199px) {
+    body {
+        background-color: red;
+    }
+}
 
-@media (orientation: portrait) {
+/*Tablet*/
+@media only screen and (max-width: 991px) {
+    
+    body {
+        background-color: blue;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 767px) {
     body {
         margin: var(--marginMobile);
     }
